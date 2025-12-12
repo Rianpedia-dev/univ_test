@@ -23,6 +23,12 @@ const translations = {
   }
 };
 
+export async function generateStaticParams() {
+  return validLocales.map((locale) => ({
+    locale,
+  }));
+}
+
 export async function generateMetadata({
   params
 }: {
