@@ -9,8 +9,9 @@ if (process.env.NODE_ENV === 'production') {
     images: {
       unoptimized: true, // wajib untuk static export
     },
-    // Opsional: agar asset (CSS/JS) pakai path relatif
-    assetPrefix: './',
+    // Next/font butuh assetPrefix yang valid (dimulai dg / atau URL absolut)
+    // Untuk static export, kita gunakan root absolute path agar next/font bekerja
+    assetPrefix: '/',
   });
 }
 
