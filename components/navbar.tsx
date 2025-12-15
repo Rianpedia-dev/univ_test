@@ -117,7 +117,9 @@ export function Navbar({ locale }: { locale: string }) {
                 <Link
                   href={item.href}
                   className={`px-4 py-2 rounded-lg transition-all duration-300 flex items-center gap-2 ${
-                    pathname === item.href || pathname.startsWith(item.href + "/")
+                    (item.title === (locale === 'id' ? "Beranda" : "Home")
+                      ? pathname === item.href
+                      : pathname === item.href || pathname.startsWith(item.href + "/"))
                       ? "bg-gradient-to-r from-blue-500/20 to-purple-600/20 text-blue-700 dark:text-blue-300 shadow-[0_0_10px_rgba(99,102,241,0.2)]"
                       : "hover:bg-white/10 dark:hover:bg-gray-800/50 hover:text-blue-600 dark:hover:text-blue-400"
                   }`}
@@ -178,14 +180,16 @@ export function Navbar({ locale }: { locale: string }) {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden mt-2 py-4 rounded-xl bg-gradient-to-b from-white/90 to-gray-100/90 dark:from-gray-800/90 dark:to-gray-900/90 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 shadow-2xl">
+          <div className="md:hidden mt-2 max-h-[70vh] overflow-y-auto py-4 rounded-xl bg-gradient-to-b from-white/90 to-gray-100/90 dark:from-gray-800/90 dark:to-gray-900/90 backdrop-blur-xl border border-gray-200/50 dark:border-gray-700/50 shadow-2xl">
             <nav className="flex flex-col gap-2 px-4">
               {navItems.map((item) => (
                 <div key={item.href}>
                   <Link
                     href={item.href}
                     className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all ${
-                      pathname === item.href || pathname.startsWith(item.href + "/")
+                      (item.title === (locale === 'id' ? "Beranda" : "Home")
+                        ? pathname === item.href
+                        : pathname === item.href || pathname.startsWith(item.href + "/"))
                         ? "bg-gradient-to-r from-blue-500/20 to-purple-600/20 text-blue-700 dark:text-blue-300"
                         : "hover:bg-white/10 dark:hover:bg-gray-800/50"
                     }`}
