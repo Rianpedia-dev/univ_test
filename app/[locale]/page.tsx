@@ -131,7 +131,12 @@ export default function Home() {
                 className="relative z-10"
               >
                 <div className="relative aspect-video rounded-2xl overflow-hidden glass-card border border-white/20 hover:shadow-[0_0_30px_rgba(0,240,255,0.2)] transition-all duration-300">
-                  <div className="absolute inset-0 bg-gradient-cyber flex items-center justify-center">
+                  <img
+                    src={t('thumbnailvidio')}
+                    alt="Thumbnail Video Profil Kampus"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-cyber/30 flex items-center justify-center">
                     <div className="text-center relative z-10">
                       <motion.div
                         className="mx-auto mb-4"

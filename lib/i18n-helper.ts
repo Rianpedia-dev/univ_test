@@ -9,6 +9,7 @@ const messages = {
       heroSubtitle: "Universitas unggulan dengan pendidikan berkualitas, fasilitas modern, dan lingkungan akademik yang mendukung kemajuan serta inovasi.",
       ctaButton: "Mulai Perjalananmu",
       watchVideo: "Tonton Video",
+      thumbnailvidio: "/images/thumbnailvidio.png",
       stats: {
         years: "Tahun Berdiri",
         students: "Mahasiswa",
@@ -16,7 +17,7 @@ const messages = {
         programs: "Program Studi"
       },
       rectorMessage: "Kata Sambutan Rektor",
-      rectorQuote: "\"Kami berkomitmen untuk menyediakan pendidikan berkualitas tinggi yang mendorong inovasi, kreativitas, dan pengembangan karakter. Dengan fasilitas modern dan dosen berpengalaman, kami siap membentuk generasi muda yang unggul dan berdaya saing global.\"",
+      rectorQuote: "\"Selamat datang di Rianpedia University, institusi pendidikan tinggi yang berkomitmen mencetak generasi unggul, berkarakter, dan berdaya saing global. Kami percaya bahwa pendidikan adalah fondasi utama dalam membangun masa depan bangsa yang inovatif dan berkelanjutan.Rianpedia University hadir sebagai pusat pengembangan ilmu pengetahuan, teknologi, dan kewirausahaan yang adaptif terhadap perkembangan zaman. Melalui pembelajaran berbasis riset, teknologi digital, serta nilai-nilai integritas dan kolaborasi, kami berupaya memberikan pengalaman akademik yang berkualitas bagi seluruh sivitas akademika.Kami mengundang seluruh mahasiswa, dosen, dan mitra untuk bersama-sama tumbuh, berkarya, dan berkontribusi nyata bagi masyarakat, bangsa, dan dunia.Terima kasih atas kepercayaan Anda kepada Rianpedia University.Kami berkomitmen untuk menyediakan pendidikan berkualitas tinggi yang mendorong inovasi, kreativitas, dan pengembangan karakter. Dengan fasilitas modern dan dosen berpengalaman, kami siap membentuk generasi muda yang unggul dan berdaya saing global.\"",
       rectorName: "Prof. Dr. Muhammad Arifin, S.T., M.T.",
       rectorTitle: "Rektor Universitas",
       latestNews: "Berita Terbaru",
