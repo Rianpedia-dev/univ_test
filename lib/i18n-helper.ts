@@ -5,7 +5,7 @@ const messages = {
   id: {
     HomePage: {
       title: "Beranda",
-      heroTitle: "Rianpedia University",
+      heroTitle: "Rianpedia University Futuristic Education",
       heroSubtitle: "Universitas unggulan dengan pendidikan berkualitas, fasilitas modern, dan lingkungan akademik yang mendukung kemajuan serta inovasi.",
       ctaButton: "Mulai Perjalananmu",
       watchVideo: "Tonton Video",
